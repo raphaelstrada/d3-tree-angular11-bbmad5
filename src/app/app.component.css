@@ -1,0 +1,57 @@
+.content {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.content.dark {
+  background-color: black;
+  color: white;
+}
+
+.page-controls {
+  align-self: flex-start;
+}
+
+p {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  max-width: 200px;
+}
+
+select,
+input:not([type="checkbox"]) {
+  width: 200px;
+}
+
+textarea {
+  width: 500px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+  overflow: auto;
+}
+
+.wrapper > * {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chart-container {
+  max-width: 400px;
+  width: 350px;
+}
